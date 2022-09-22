@@ -10,6 +10,12 @@ img {
   margin-left: 550px;
   padding-top: 0px;
 }
+nav::before {
+  content: "📎";
+}
+.mail::before {
+  content: "📧";
+}
 h1 {
   color: white;
 }
@@ -21,4 +27,11 @@ li {
 }
 a {
   color: orange;
+}
+button {
+  color: green;
+}
+button:hover {
+  background-color: blue;
+  color: yellow;
 }
