@@ -1,0 +1,37 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans&display=swap");
+* {
+  background-color: black;
+}
+body {
+  font-family: "DM Sans", sans-serif;
+  margin-left: 500px;
+}
+img {
+  margin-left: 550px;
+  padding-top: 0px;
+}
+nav::before {
+  content: "📎";
+}
+.mail::before {
+  content: "📧";
+}
+h1 {
+  color: white;
+}
+h2 {
+  color: white;
+}
+li {
+  color: grey;
+}
+a {
+  color: orange;
+}
+button {
+  color: green;
+}
+button:hover {
+  background-color: blue;
+  color: yellow;
+}
