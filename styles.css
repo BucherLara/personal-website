@@ -10,9 +10,19 @@ img {
   margin-left: 550px;
   padding-top: 0px;
 }
-nav::before {
-  content: "📎";
+
+nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  gap: 20px;
 }
+button {
+  color: black bold;
+  background-image: linear-gradient solid(purple, blue, rgb(34, 162, 217));
+  border-radius: 20px;
+}
+
 .mail::before {
   content: "📧";
 }
@@ -26,12 +36,12 @@ li {
   color: grey;
 }
 a {
-  color: orange;
+  color: white;
 }
 button {
   color: green;
 }
 button:hover {
-  background-color: blue;
+  background-image: linear-gradient(purple, blue, rgb(34, 162, 217));
   color: yellow;
 }
