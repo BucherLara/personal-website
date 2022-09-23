@@ -19,8 +19,9 @@ nav {
 }
 button {
   color: black bold;
-  background-image: linear-gradient solid(purple, blue, rgb(34, 162, 217));
+  background-image: linear-gradient(purple, blue, rgb(34, 162, 217));
   border-radius: 20px;
+  font-size: 16px;
 }
 
 .mail::before {
@@ -42,6 +43,6 @@ button {
   color: green;
 }
 button:hover {
-  background-image: linear-gradient(purple, blue, rgb(34, 162, 217));
-  color: yellow;
+  color: red;
+  background-color: green;
 }
