@@ -1,37 +1,99 @@
 @import url("https://fonts.googleapis.com/css2?family=DM+Sans&display=swap");
 * {
-  background-color: black;
+  /* background-color: black; */
+}
+header {
+  width: 100%;
 }
 body {
+  background-color: black;
+  display: flex;
+  flex-direction: column;
   font-family: "DM Sans", sans-serif;
-  margin-left: 500px;
+  align-items: center;
+
+  /* margin-left: 500px; */
 }
+main {
+  font-size: 25px;
+  /* padding-left: 15%; */
+}
+.name {
+  color: white;
+  font-size: 30px;
+  font-weight: bolder;
+  padding-left: 14px;
+  padding-right: 14px;
+  padding-top: 7px;
+  padding-bottom: 7px;
+}
+.name:hover {
+  background-color: grey;
+  border-radius: 30px;
+}
+
 img {
-  margin-left: 550px;
   padding-top: 0px;
+  width: 75px;
+  height: 75px;
+  border-radius: 30px;
 }
-nav::before {
-  content: "📎";
+
+.nav-container {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding-right: 5%;
+}
+
+nav {
+  padding-left: 7%;
+  padding-right: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+
+  gap: 20px;
+}
+button {
+  background-color: #0f680f;
+  border-radius: 50px;
+
+  padding-left: 14px;
+  padding-right: 14px;
+  padding-bottom: 7px;
+  padding-top: 7px;
+  font-size: 30px;
+  border: none;
+}
+button > a {
+  background-color: #0f680f;
+}
+li > a {
+  color: #0f680f;
 }
 .mail::before {
   content: "📧";
 }
 h1 {
   color: white;
+  text-align: center;
+  font-size: 65px;
 }
 h2 {
   color: white;
+  font-size: 40px;
 }
 li {
   color: grey;
 }
 a {
-  color: orange;
+  text-decoration: none;
+  color: white;
 }
-button {
-  color: green;
-}
+
 button:hover {
-  background-color: blue;
-  color: yellow;
+  background-color: green;
 }
